@@ -1,0 +1,274 @@
+html, body {
+    margin: 0 auto;
+    padding: 0;
+}    
+
+html {
+    font-family: Arial, Sans-Serif;
+    background: url("../img/background.jpg") no-repeat center fixed;
+    background-size: cover;
+}
+
+h1 { 
+    font-family: "Goudy Old Style", Garamond, "Big Caslon", "Times New Roman", serif;
+    font-size: 50px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 700;
+    line-height: 26.4px;
+    text-align: center;
+    color:  rgb(19, 111, 185);
+} 
+
+.container {
+    width: 600px;
+    height: 900px;
+    margin: auto;
+    background: rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+}
+
+.clear {
+    clear: both;
+}
+
+#sup {
+    z-index: 999;
+    position: relative;
+    top: -300;
+}
+
+#rev {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+    
+body form label {
+    text-align: center;
+}
+
+.header {
+    height: 20px;
+    position: relative;
+}
+
+body form {
+    text-align: center;
+}
+
+form.content {
+    width: 300%;
+    margin: 0px auto;
+    padding: 20px;
+    border: 1px solid #B0C4DE;
+    background: white;
+    border-radius: 0px 0px 10px 10px;
+}
+    
+.input-group {
+    margin: 10px 0px 10px 0px;
+}
+    
+.input-group label {
+    display: block;
+    text-align: center;
+    margin: 3px;
+    color: white;
+}
+
+.input-group input {
+    height: 25px;
+    padding: 8px 16px;
+    font-size: 15px;
+    border-radius: 50px;
+    border: 1px solid gray;
+    text-align: left;
+    width: 30%;
+    font-style: italic;
+}
+.btn {
+    height: 40px;
+    width: 33%;
+    padding: 8px 18px;
+    font-size: 22px;
+    color: white;
+    background: blue;
+    border: 3px solid blue;
+    border-radius: 50px;
+    align-self: center;
+    font-style: italic;
+    font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+    font-weight: 700;
+}
+
+.btn:hover {
+    color: #000;
+    background-color: rgb(20, 5, 227);
+}
+
+.page-header {
+    position: absolute;
+    left: 25%;
+    top: 25px;
+}
+
+.error {
+    margin: 0px auto;
+    color: red;
+    background: #f2dede;
+    text-align: left;
+}
+
+.success {
+    color: #3c763d;
+    background: #dff0d8;
+    border: 1px solid #3c763d;
+    margin-bottom: 20px;
+} 
+
+.pics {
+    height: 300px;
+    width: 400px;
+}
+    
+.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    width: 180px;
+}
+    
+#photo {
+    color: #fff;
+}
+
+#forgot {
+    color:  rgb(19, 111, 185);
+    font-style: oblique;
+}
+
+#forgot:hover {
+    color: red;
+}
+
+#forgot:active {
+    color: blue;
+}
+
+#forgot:link {
+    text-decoration: none;
+}
+
+#forgot:hover {
+    text-decoration: underline;
+}
+
+#forgot:active {
+    text-decoration: underline;
+}
+
+.booth {
+    margin: 150px auto;
+    width: 400px;
+    Height: 300px;
+    background-color: #ccc;
+    border: 10px solid #ddd;
+}
+    
+.canvas {
+    top: 1000px;
+    margin: 0;
+}
+    
+.booth-capture-button {
+    display: block;
+    margin: 10px 0;
+    padding: 10px 20px;
+    background-color: cornflowerblue;
+    color: #fff;
+    text-align: center;
+    text-transform: none;
+}
+    
+.capture {
+    display: none;
+}
+    
+.pagination {
+    padding-bottom: 100px;
+    display: block; 
+    margin-left: auto;
+    margin-right: auto; 
+    width: 50%; 
+}
+    
+.result {
+    display: inline-block;
+}
+
+ul.navbar li a {
+    display: block;
+    color: #000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#title {
+    color: teal;
+    font-style: normal;
+    text-decoration: none;
+    font-size: 35px;
+    font-size-adjust: none;
+    margin-inline-end: center;
+}
+
+#MyTopnav {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    border-top: 1px solid #ccc;
+}
+
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+}
+
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: Rockwell, "Courier Bold", Courier, Georgia, Times, "Times New Roman", serif;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.topnav a.active {
+    background-color: rgb(19, 111, 185);
+    color: white;
+}
+
+.footer {
+    overflow: hidden;
+    font-size: .8125rem;
+    background-color: #333;
+    border-top: 1px solid #ccc;
+    color: #fff;
+    padding: 1em;
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    padding: 1em;
+    font-family: Rockwell, "Courier Bold", Courier, Georgia, Times, "Times New Roman", serif;
+}
